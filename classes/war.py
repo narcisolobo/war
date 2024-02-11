@@ -32,7 +32,7 @@ class War:
         self.deal_cards()
 
         while self.player_one.has_cards() and self.player_two.has_cards():
-            # input("Press enter to start the next round.")
+            input("Press enter to start the next round.")
             self.round()
 
         if len(self.player_one.cards) > 0:
