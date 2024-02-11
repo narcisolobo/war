@@ -47,5 +47,9 @@ class Player:
         return
 
     def check_cards(self):
+        """
+        This method does not get called in the game. I wrote it for
+        debugging purposes.
+        """
         for card in self.cards:
             print(card.show())
